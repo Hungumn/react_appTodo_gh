@@ -1,0 +1,24 @@
+.list-todo-container button {
+  cursor: pointer;
+}
+.list-todo-container .add-todo .add {
+  margin: 0 10px;
+  font-size: 12px;
+}
+.list-todo-container .list-todo-content {
+  width: 800px;
+  margin: 0 auto;
+}
+.list-todo-container .list-todo-content .todo-child {
+  height: 60px;
+  border-bottom: 1px solid grey;
+  margin: 10px;
+}
+.list-todo-container .list-todo-content .todo-child:first-child {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+.list-todo-container .list-todo-content .todo-child button {
+  font-size: 15px;
+  text-shadow: 1px 0 #fffefe;
+}
